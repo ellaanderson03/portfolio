@@ -1,0 +1,71 @@
+header{
+  padding-left:1rem;
+  margin-bottom:2rem;
+}
+header a:hover{
+  color:thistle;
+  transition: all 1s;
+}
+body{
+  font-family: 'Barlow', sans-serif;
+  background-color:	rgb(210, 210, 249, .4);
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.article-container{
+  width:85%;
+  background-color:white;
+  padding:1rem;
+  margin:1rem;
+}
+.button a{
+  border:solid 1px grey;
+  padding:1rem;
+}
+.button{
+  margin-top:2rem;
+  margin-bottom:2rem;
+}
+
+.button a:hover {
+  color:turquoise;
+  transition: all 1s;
+  border:solid 1px turquoise;
+}
+.right-container{
+  width:100%;
+}
+.left-container{
+  width:100%;}
+
+.image-box{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+.image-container{
+  height: auto;
+  width:40%;
+  overflow:hidden;
+  margin:.5rem;
+}
+
+.image-container img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.1);
+}
+
+.image-container img:hover{
+  transform: scale(1.2);
+  transition:1s;
+}
+.photojournalism h1{
+  margin-left:3rem;
+}
+
+

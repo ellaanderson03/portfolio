@@ -67,5 +67,11 @@ a{
 .photojournalism h1{
   margin-left:3rem;
 }
-
-
+.body-2{
+  font-family:none;
+}
+.article{
+  padding:4rem;
+  padding-top:1rem;
+  
+}

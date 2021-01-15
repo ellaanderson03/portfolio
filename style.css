@@ -1,14 +1,38 @@
 header{
   padding-left:1rem;
   margin-bottom:2rem;
+  /* color:thistle; */
+  font-size:25px;
+}
+.photography{
+  padding-left:1rem;
+}
+header a{
+  color:thistle;
 }
 header a:hover{
-  color:thistle;
+  color:palevioletred;
   transition: all 1s;
 }
+header p{
+  background-color: rgb(210, 210, 249, .4);
+  padding:1rem;
+}
+.title-writing{
+  padding-left:1rem;
+}
+.images-container{
+  display: flex;
+
+  width:100%;
+
+}
+
 body{
-  font-family: 'Barlow', sans-serif;
-  background-color:	rgb(210, 210, 249, .4);
+
+font-family: 'Raleway', sans-serif;
+
+  background-color:	whitesmoke;
 }
 a{
   text-decoration: none;
@@ -28,11 +52,13 @@ a{
   margin-top:2rem;
   margin-bottom:2rem;
 }
-
+.art-title{
+  padding-left:1rem;
+}
 .button a:hover {
-  color:turquoise;
+  color:palevioletred;
   transition: all 1s;
-  border:solid 1px turquoise;
+  border:solid 1px palevioletred;
 }
 .right-container{
   width:100%;
@@ -47,7 +73,7 @@ a{
 }
 .image-container{
   height: auto;
-  width:40%;
+  width:30%;
   overflow:hidden;
   margin:.5rem;
 }
@@ -64,9 +90,7 @@ a{
   transform: scale(1.2);
   transition:1s;
 }
-.photojournalism h1{
-  margin-left:3rem;
-}
+
 .body-2{
   font-family:none;
 }
